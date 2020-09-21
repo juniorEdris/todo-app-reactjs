@@ -1,0 +1,8 @@
+.todo_list{
+        max-width: 600px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background: #fff;
+        margin: 0 auto !important;
+}

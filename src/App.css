@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: #ddd;
+}
+
+
+.todo_header{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  padding: 15px;
+  font-size: 2rem;
+  font-weight: 500 !important;
+}
+.todo_form {
+  max-width: 600px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 18px auto;
+}
+.todo_cases{
+  height: 700px;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+.todo_input{
+  flex: 4;
+}
+
+.todo_footer{
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+}
+.todo_contact{
+  padding: 20px !important;
+  font-weight: 600 !important;
+}
